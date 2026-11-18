@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="PackPilot — automatyzacja pakowania i obsługi zamówień w Apilo.">
+  <title>PackPilot — Pakuj szybciej</title>
+  <link rel="icon" type="image/jpeg" href="assets/packpilot-logo.jpg">
+  <style>
+    :root{color-scheme:dark;--bg:#080d19;--panel:#101a2c;--line:#24334d;--blue:#1675ff;--cyan:#62b5ff;--muted:#aab7cb;--white:#f5f8ff}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(ellipse at 50% 0%,#142b50 0%,var(--bg) 55%);color:var(--white);min-height:100vh}
+    .wrap{width:min(1100px,calc(100% - 40px));margin:auto}.nav{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12}.brand{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:800;letter-spacing:-.5px}.brand img{width:48px;height:48px;border-radius:13px;object-fit:cover}.brand span{color:#4b9cff}.navtag{font-size:13px;color:#b9c8df;border:1px solid var(--line);padding:9px 13px;border-radius:30px}
+    main{padding:76px 0 50px;text-align:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:#8fc3ff;background:#10284a;border:1px solid #214c7d;padding:8px 14px;border-radius:30px;font-size:13px;font-weight:650}.dot{width:7px;height:7px;border-radius:50%;background:#38d996;box-shadow:0 0 12px #38d996}
+    h1{font-size:clamp(42px,7vw,76px);line-height:1.04;letter-spacing:-3px;margin:26px 0 18px}.gradient{background:linear-gradient(90deg,#fff 10%,#83baff 55%,#3988ff);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{max-width:670px;margin:0 auto;color:var(--muted);font-size:18px;line-height:1.7}
+    .actions{display:flex;justify-content:center;gap:13px;flex-wrap:wrap;margin:34px 0 16px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 25px;border-radius:13px;font-size:15px;font-weight:750;text-decoration:none;border:1px solid transparent}.primary{background:linear-gradient(135deg,#1675ff,#3659ed);color:white;box-shadow:0 12px 35px #176dff40}.secondary{border-color:#334663;color:#dce8fb;background:#111b2b}.primary.disabled{opacity:.55;cursor:not-allowed;box-shadow:none}.small{font-size:12px;color:#8798b2}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:70px 0 28px;text-align:left}.feature{padding:23px;border-radius:18px;background:linear-gradient(145deg,#111e33,#0d1525);border:1px solid var(--line)}.ico{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:#12366a;color:#8fc3ff;font-size:21px}.feature h3{font-size:17px;margin:17px 0 8px}.feature p{margin:0;color:var(--muted);font-size:14px;line-height:1.65}
+    .bottom{margin:40px 0 0;padding:25px 0;border-top:1px solid #ffffff12;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#8494ad;font-size:12px}.bottom strong{color:#b8c9e2}
+    @media(max-width:700px){main{padding-top:55px}h1{letter-spacing:-1.8px}.features{grid-template-columns:1fr;margin-top:48px}.lead{font-size:16px}.navtag{display:none}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <div class="brand"><img src="assets/packpilot-logo.jpg" alt="Logo PackPilot">Pack<span>Pilot</span></div>
+      <div class="navtag">Narzędzie do obsługi zamówień</div>
+    </header>
+    <main>
+      <div class="eyebrow"><span class="dot"></span> Inteligentniejsze pakowanie zamówień</div>
+      <h1>Pakuj szybciej.<br><span class="gradient">Pracuj wygodniej.</span></h1>
+      <p class="lead">PackPilot pomaga automatyzować przygotowanie zamówień w Apilo — ogranicza ręczne wpisywanie wag i gabarytów, aby codzienna praca przebiegała sprawniej.</p>
+      <div class="actions">
+        <a class="btn primary disabled" href="#" aria-disabled="true" title="Przycisk zostanie aktywowany po opublikowaniu instalatora">⇩ &nbsp; Pobierz PackPilot</a>
+        <a class="btn secondary" href="#funkcje">Poznaj możliwości</a>
+      </div>
+      <div class="small">Windows • Instalator EXE • Bez konieczności instalowania Pythona</div>
+      <section class="features" id="funkcje">
+        <article class="feature"><div class="ico">▦</div><h3>Wagi i gabaryty</h3><p>Automatyczne uzupełnianie danych przesyłek na podstawie produktów w zamówieniu.</p></article>
+        <article class="feature"><div class="ico">⚡</div><h3>Szybsza obsługa</h3><p>Mniej powtarzalnego wpisywania i sprawniejsza praca z listą zamówień.</p></article>
+        <article class="feature"><div class="ico">✓</div><h3>Prosty start</h3><p>Instalator Windows i skrót PackPilot na pulpicie — bez ręcznej konfiguracji środowiska Python.</p></article>
+      </section>
+    </main>
+    <footer class="bottom"><span>© <span id="year">2026</span> <strong>PackPilot</strong></span><span>Strona pobierania aplikacji PackPilot</span></footer>
+  </div>
+</body>
+</html>
